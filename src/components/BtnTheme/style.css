@@ -1,0 +1,32 @@
+.btn-switch-theme{
+    position: absolute;
+    top: 15px;
+    left: 47%;
+    display: flex;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid #580DF6;
+    cursor: pointer;
+}
+.btn-switch-theme:focus{
+    outline: none;
+}
+.btn-switch-theme > .light, .dark{
+    position: absolute;
+    top: 4px;
+    transition: all ease 0.5s;
+}
+.active{
+    left: 10px;
+}
+
+.waiting{
+    left: 60px;
+}
+@media (max-width: 412px){
+    .btn-switch-theme{
+        left: 40%;
+    }
+}

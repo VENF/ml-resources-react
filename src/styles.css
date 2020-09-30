@@ -1,9 +1,7 @@
 body {
-  font-family: "Courier", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.666;
-  background: #ffefd5;
-  color: #555;
 }
 
 h1 {
@@ -12,14 +10,18 @@ h1 {
   text-align: center;
   justify-content: center;
   margin-top: 4rem;
-  color: black;
   line-height: 1.2;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 span {
   padding: 5px 15px;
 }
-
+/*styles for component Display*/
+.content-resources{
+  padding: .2rem;
+}
+/*styles for component Display*/
 .json {
   display: flex;
   flex-wrap: wrap;
@@ -34,17 +36,19 @@ h1 span {
   margin-bottom: 3rem;
   padding: 2rem;
   border-radius: 3px;
-  box-shadow: 0 2.1px 0 rgba(0, 0, 0, 0.07), 0 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   background-color: #f2f2f2;
   transition: all 100ms ease-in-out;
 }
-
+.json > .bxstyle:hover {
+  transform: translateY(-5px);
+}
 .json > .bxstyle > dt {
   margin-bottom: 1rem;
 }
 
 dt {
-  color: rgb(237, 9, 123);
+  color: #580DF6;
   line-height: 1;
 }
 
@@ -61,7 +65,7 @@ dt span {
 
 .anchor {
   text-decoration: none;
-  color: darkcyan;
+  color: #7C00F6;
 }
 .anchor:hover {
   color: rgb(237, 9, 123);
@@ -91,4 +95,10 @@ dd dl {
 
 dd dl .bxstyle {
   margin-bottom: 1.1rem;
+}
+
+/*General*/
+*{
+  margin: 0px;
+  padding: 0px;
 }

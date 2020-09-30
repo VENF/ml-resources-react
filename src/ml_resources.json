@@ -16,5 +16,11 @@
     "title": "Stanford CS229: Machine Learning | Autumn 2018",
     "description": "Stanford University Lectures on Machine Learning Introductory Course.",
     "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+  },
+  {
+    "id": 4,
+    "title": "Freecodecamp Learn: Machine Learning with python",
+    "description": "Free courses in freecodecamp to learn machine learning with python and more with certificate.",
+    "link": "https://www.freecodecamp.org/learn/"
   }
 ]
